@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/portf-lio-LBTM/static/css/main.073c9b0a.css",
-    "main.js": "/portf-lio-LBTM/static/js/main.ac926406.js",
+    "main.css": "/portf-lio-LBTM/static/css/main.8cfd9c78.css",
+    "main.js": "/portf-lio-LBTM/static/js/main.9883e1aa.js",
     "static/js/787.70271d6c.chunk.js": "/portf-lio-LBTM/static/js/787.70271d6c.chunk.js",
-    "static/media/logo.svg": "/portf-lio-LBTM/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/banner-bg.png": "/portf-lio-LBTM/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/CentraNo2-Bold.ttf": "/portf-lio-LBTM/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/portf-lio-LBTM/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/portf-lio-LBTM/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/footer-bg.png": "/portf-lio-LBTM/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/nav-icon3.svg": "/portf-lio-LBTM/static/media/nav-icon3.72cef43bc93b04f52e29f022ef720f8b.svg",
+    "static/media/logo.svg": "/portf-lio-LBTM/static/media/logo.3c6c479cfa1d154dbfccd4d5f91320f4.svg",
     "index.html": "/portf-lio-LBTM/index.html",
-    "main.073c9b0a.css.map": "/portf-lio-LBTM/static/css/main.073c9b0a.css.map",
-    "main.ac926406.js.map": "/portf-lio-LBTM/static/js/main.ac926406.js.map",
+    "static/media/nav-icon1.svg": "/portf-lio-LBTM/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
+    "static/media/nav-icon2.svg": "/portf-lio-LBTM/static/media/nav-icon2.a39f0e5e47e442dafcc5c9c320f19f6f.svg",
+    "main.8cfd9c78.css.map": "/portf-lio-LBTM/static/css/main.8cfd9c78.css.map",
+    "main.9883e1aa.js.map": "/portf-lio-LBTM/static/js/main.9883e1aa.js.map",
     "787.70271d6c.chunk.js.map": "/portf-lio-LBTM/static/js/787.70271d6c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.ac926406.js"
+    "static/css/main.8cfd9c78.css",
+    "static/js/main.9883e1aa.js"
   ]
 }
