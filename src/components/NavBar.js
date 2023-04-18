@@ -55,7 +55,9 @@ export const NavBar = () => {
                 <a href="#"><img src={navIcon3} alt="" /></a>
               </div>
               <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
+                <a href="https://wa.me/5551997505450?text=Ol%C3%A1%20tenho%20interesse%20em%20fazer%20um%20orçamento%20de%20um%20site%20com%20vocês!%20Poderia%20me%20me%20ajudar?" target="blank__">
+                <button className="vvd"><span>Entre em contato</span></button>
+                </a>
               </HashLink>
             </span>
           </Navbar.Collapse>

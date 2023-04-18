@@ -243,8 +243,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: linear-gradient(90.21deg, rgb(230 212 223 / 50%) -5.91%, rgb(0 0 0 / 50%) 111.58%);  border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
@@ -263,6 +262,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
+}
+.banner a {
+  text-decoration: none;
 }
 .banner button {
   color: #fff;
@@ -304,6 +306,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
+  background-color: #000;
 }
 .skill-bx {
   background: #151515;
@@ -389,7 +392,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(90.21deg, #000000 -5.91%, #aaa8b0 111.58%);
     top: 0;
     left: 0;
     z-index: -1;
@@ -468,7 +471,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background-color: #000;
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -540,6 +543,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Footer Css ************/
 .footer {
+  background-color: #000;
   padding: 0 0 50px 0;
   background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
@@ -599,7 +603,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0 15px;
 }
 .new-email-bx button {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #201d1f -5.91%, #6b6879 111.58%);
   padding: 20px 65px;
   color: #fff;
   font-weight: 500;
