@@ -61,7 +61,7 @@ export const Banner = () => {
                     estamos focados em oferecer o melhor serviço para todos os nossos clientes!
                   </p>
                   <a href="https://wa.me/5551997505450?text=Ol%C3%A1%20tenho%20interesse%20em%20fazer%20um%20orçamento%20de%20um%20site%20com%20vocês!%20Poderia%20me%20me%20ajudar?" target="blank__">
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => console.log('connect')}>Entre em contato<ArrowRightCircle size={25} /></button>
                   </a>
               </div>}
             </TrackVisibility>
