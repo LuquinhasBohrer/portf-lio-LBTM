@@ -364,11 +364,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 56%;
 }
 .project .nav.nav-pills {
+  cursor: pointer;
   width: 72%;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
+  opacity: 0,8;
+}
+.project .nav.nav-pills:hover {
+  opacity: 1;
 }
 .project .nav.nav-pills .nav-item {
   width: 33.33333%;
