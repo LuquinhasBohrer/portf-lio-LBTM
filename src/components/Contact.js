@@ -59,22 +59,22 @@ export const Contact = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <h2>Entre em contato!</h2>
-                <form  action="https://formsubmit.co/lbtmdesenvolvimentoweb@gmail.com" method="POST" onSubmit={handleSubmit}>
-                  <Row>
+                <form action="https://api.sheetmonkey.io/form/xyR7DKLbvQWuSKZwA84iqw" method="post">
+                <Row>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="text" value={formDetails.firstName} placeholder="Primeiro Nome" onChange={(e) => onFormUpdate('firstName', e.target.value)} />
+                      <input type="text" value={formDetails.firstName} name="Primeiro Nome" required placeholder="Primeiro Nome" onChange={(e) => onFormUpdate('firstName', e.target.value)} />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="text" value={formDetails.lasttName} placeholder="Último Nome" onChange={(e) => onFormUpdate('lastName', e.target.value)}/>
+                      <input type="text" value={formDetails.lasttName} name="Ultímo nome" required placeholder="Último Nome" onChange={(e) => onFormUpdate('lastName', e.target.value)}/>
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="email" value={formDetails.email} placeholder="Endereço de Email" onChange={(e) => onFormUpdate('email', e.target.value)} />
+                      <input type="email" value={formDetails.email} name="Email" required placeholder="Endereço de Email" onChange={(e) => onFormUpdate('email', e.target.value)} />
                     </Col>
                     <Col size={12} sm={6} className="px-1">
-                      <input type="tel" value={formDetails.phone} placeholder="N° de celular" onChange={(e) => onFormUpdate('phone', e.target.value)}/>
+                      <input type="tel" value={formDetails.phone} name="Número de celular" required placeholder="N° de celular" onChange={(e) => onFormUpdate('phone', e.target.value)}/>
                     </Col>
                     <Col size={12} className="px-1">
-                      <textarea rows="6" value={formDetails.message} placeholder="Messagem" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
+                      <textarea rows="6" value={formDetails.message} name="Mensagem" required placeholder="Messagem" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
                       <button type="submit"><span>{buttonText}</span></button>
                     </Col>
                     {
@@ -84,6 +84,7 @@ export const Contact = () => {
                       </Col>
                     }
                   </Row>
+
                 </form>
               </div>}
             </TrackVisibility>
