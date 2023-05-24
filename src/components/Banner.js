@@ -57,8 +57,8 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Bem vindos ao nosso site!</span>
                 <h1>{`LBTM: O que somos?`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web development", "Web Designer’s", "UI/UX Designer’s" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Somos uma pequena organização, formada a partir de um sonho de uma das duas pessoas que fazem parte dela
-                    estamos focados em oferecer o melhor serviço para todos os nossos clientes!
+                  <p>Somos uma pequena organização focada em realizar a construção do website de nossos clientes
+                    de forma facilitada com preços mega acessíveis. Daremos o nosso melhor em cada trabalho solicitado.
                   </p>
                   <a href="https://wa.me/5551997505450?text=Ol%C3%A1%20tenho%20interesse%20em%20fazer%20um%20orçamento%20de%20um%20site%20com%20vocês!%20Poderia%20me%20me%20ajudar?" target="blank__">
                   <button onClick={() => console.log('connect')}>Entre em contato<ArrowRightCircle size={25} /></button>
