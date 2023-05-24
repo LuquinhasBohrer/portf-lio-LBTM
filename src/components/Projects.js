@@ -17,7 +17,7 @@ export const Projects = () => {
       URL:("https://treinamento-flexbox.vercel.app/"),
     },
     {
-      title: "Business Startup",
+      title: "Lp condicionador Vegano",
       description: "Design",
       imgUrl: projImg2,
     },
