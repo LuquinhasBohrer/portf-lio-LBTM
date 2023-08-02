@@ -54,11 +54,11 @@ export const NavBar = () => {
                 <a href="https://www.facebook.com/profile.php?id=100092013967259"><img src={navIcon2} alt="" /></a>
                 <a href="https://instagram.com/lbtmdesenvolvedoresweb?igshid=YmMyMTA2M2Y="><img src={navIcon3} alt="" /></a>
               </div>
-              <HashLink>
+              
                 <a href="https://lbtmdesenvolvimentoweb.meloja.com.br/" target="blank__">
                 <button className="vvd"><span>Acesse nossa Loja!</span></button>
                 </a>
-              </HashLink>
+           
             </span>
           </Navbar.Collapse>
         </Container>
