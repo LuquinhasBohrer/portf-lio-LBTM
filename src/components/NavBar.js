@@ -55,8 +55,8 @@ export const NavBar = () => {
                 <a href="https://instagram.com/lbtmdesenvolvedoresweb?igshid=YmMyMTA2M2Y="><img src={navIcon3} alt="" /></a>
               </div>
               <HashLink to='#connect'>
-                <a href="https://wa.me/5551997505450?text=Ol%C3%A1%20tenho%20interesse%20em%20fazer%20um%20orçamento%20de%20um%20site%20com%20vocês!%20Poderia%20me%20me%20ajudar?" target="blank__">
-                <button className="vvd"><span>Entre em contato</span></button>
+                <a href="https://lbtmdesenvolvimentoweb.meloja.com.br/" target="blank__">
+                <button className="vvd"><span>Acesse nossa Loja!</span></button>
                 </a>
               </HashLink>
             </span>
